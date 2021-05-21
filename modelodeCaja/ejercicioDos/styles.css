@@ -1,0 +1,43 @@
+body{
+    display: block;
+    background-color: #a5d6a8;
+    font-family: 'Muli', sans-serif;
+}
+
+.container{
+    border: 1px solid #EBEBF2;
+    background-color:#f7f7fc;   
+    border-radius: 5%;
+    display: relative;
+    width: 250px;    
+    height: 300px;
+    text-align: center;
+    margin: 120px auto;
+    padding: 12px 10px 12px 10px;
+}
+.card{
+    display: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+span{
+    color:#908ead;
+    font-size: 13px;
+    padding: 10px 10px 10px 10px;
+}
+.list{
+    list-style: none;
+    border-radius: 100px;
+    background-color: #ffffff;
+    border: 1px solid #ebebf2;
+    padding: 5px;
+    margin: 0 auto 10px;
+    margin-right: 30px;
+    text-align: center;
+}

@@ -1,0 +1,64 @@
+html, body, main{
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #eae7fb;
+    font-family: "Roboto Mono", monospace;
+}
+.container{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    margin: 100px auto;
+}
+p{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.button{
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #ffffff;   
+    width: 75px;
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    font-size: 15px;
+    color: lightgray;
+    font-weight: bold;
+
+}
+.boton-fondo{
+    background-color: rgb(121, 102, 238);
+    color: #ffffff;
+}
+.continue{
+    background-color:  rgb(121, 102, 238);
+    margin: 25px 60px 25px;
+    margin-left: 70px;
+    width: 350px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.boxUno{
+    width: 450px;
+    height: 100px;
+    margin: 70px 30px 30px 20px;
+
+}
+.boxDos{
+    width: 450px;
+    margin: 10px 30px 30px 20px;
+    text-align: center;
+}
+.boxTres{
+    width: 500px;
+    height: 100px;
+}

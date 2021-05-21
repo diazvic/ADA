@@ -1,0 +1,75 @@
+.progresoUno{
+    border-radius: 100px;
+    width: 500px;
+    height: 30px;
+    background-color: salmon;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.progresoDos{
+    border-radius: 100px;
+    width: 500px;
+    height: 30px;
+    background-color: salmon;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.progresoTres{
+    border-radius: 100px;
+    width: 500px;
+    height: 30px;
+    background-color: salmon;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.progresoCuatro{
+    border-radius: 100px;
+    width: 500px;
+    height: 30px;
+    background-color: salmon;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.progresoCinco{
+    border-radius: 100px;
+    width: 500px;
+    height: 30px;
+    background-color: salmon;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.progreso10{
+    border-radius: 100px;
+    height: 30px;
+    width: 50px;
+    background-color: lightcyan;
+    
+}
+.progreso25{
+    border-radius: 100px;
+    height: 30px;
+    width: 125px;
+    background-color: lightcyan;
+    
+}
+.progreso50{
+    border-radius: 100px;
+    height: 30px;
+    width: 250px;
+    background-color: lightcyan;
+    
+}
+.progreso75{
+    border-radius: 100px;
+    height: 30px;
+    width: 375px;
+    background-color: lightcyan;
+    
+}
+.progreso90{
+    border-radius: 100px;
+    height: 30px;
+    width: 450px;
+    background-color: lightcyan;
+    
+}

@@ -1,0 +1,81 @@
+html,body,main{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+}
+.container{
+    width: 700px;
+    height: 960px;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.imagen{
+    background-color: #CB2241;
+    width: auto;
+    height: 280px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-left: 250px;
+    margin-right: 300px;
+    margin-top: 25px;
+}
+h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+button{
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #0C202C;
+    border: 1px solid #CB2241;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.botonUno{
+    margin-left: 150px;
+}
+.botonDos{
+    margin-left: 10px;
+}
+.botonTres{
+    margin-left: 10px;
+}
+.boxes{
+    background-color: #0C202C;
+    height: 582px;
+    padding: 49px 60px;
+}
+p{
+    font-size: 19px;
+    margin: 16px 0px;
+    color: #ffffff;
+    text-align: center;
+}
+h2{
+    color: #ffffff;
+    margin: 10px 0px 15px;
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.precio{
+    font-size: 45px;
+}
+.compra{
+    background-color: #CB2241;
+    margin: 30px 200px;
+    width: 200px;
+    height: 48px;
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    padding: 0px 24px;
+}

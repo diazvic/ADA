@@ -1,0 +1,66 @@
+body,html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #1EA1F2;
+    }
+.contenedor{
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    padding: 20px;
+    border-radius: 5px;
+}
+img{
+    width: 90px;
+    height: 85px;
+}
+.principal{
+    display: flex;
+    align-items: center;
+}
+.nombre-usuario{
+    
+    align-items: flex-start;
+}
+.secundario{
+    font-size: 20px;
+    margin-top: 18px;
+}
+.footer{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.cuarto{
+    background-color: darkgrey;
+}
+hr{
+    margin-right: 30px;
+    width: 650px;
+}
+h4, h3{
+    margin: 0;
+    margin-left: 10px;
+    font-size: 20px;
+}
+span{
+    font-weight: bold;
+}
+.box-uno{
+    display: flex;
+    align-items: center;
+}
+.box-dos{
+    display: flex;
+    align-items: center;
+}
+.retweets{
+    margin-right: 10px;
+}
+.share, .retweet, .like{
+    margin-right: 10px;
+}

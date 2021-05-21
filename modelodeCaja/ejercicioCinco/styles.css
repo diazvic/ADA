@@ -1,0 +1,95 @@
+html, body {
+    min-height: 100%;
+    background-color: #2fc5d5;
+}
+
+.container{
+    width: 550px;
+    height: 600px;
+    margin: 100px auto;
+    border-radius: 30px;
+    border: 1px solid gainsboro;
+    background-color: #ffffff;
+}
+.upper{
+    width: 550px;
+    height: 100px;
+    
+}
+.upperTitle{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: bold;
+}
+.lower{
+    width: 550px;
+    height: 450px;
+}
+.upperLeft{
+    width: 275px;
+    height: 100px;
+    float: left;
+}
+.upperRight{
+    width: 275px;
+    height: 100px;
+    float: right;
+}
+.newSkill{
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 60px;
+    color: #d9dbe0;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+.skill{
+    width: 455px;
+    height: 100px;
+    margin-top: 35px;
+    margin-left: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.skillLeftuno{
+    width: 10px;
+    height: 100px;
+    float: left;
+    background-color: #f97eae;
+}
+.skillTitle{
+    font-weight: bold;
+}
+.skillLeftdos{
+    width: 10px;
+    height: 100px;
+    float: left;
+    background-color: #dfa0ff;
+}
+.skillLefttres{
+    width: 10px;
+    height: 100px;
+    float: left;
+    background-color: #fba378;
+}
+.skillRight{
+    width: 300px;
+    height: 100px;
+    margin-left: 10px;
+}
+.skillRightUpper{
+    width: 350px;
+    height: 50px;
+    margin-left: 15px;
+}
+.skillRightLower{
+    width: 350px;
+    height: 50px;
+    margin-left: 15px;
+}

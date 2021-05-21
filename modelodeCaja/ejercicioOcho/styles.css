@@ -1,0 +1,85 @@
+html, body{
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgb(231, 233, 241);
+}
+.container{
+    width: 500px;
+    height: 640px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: 30px auto;
+}
+img{
+    width: 70px;
+    height: 70px;
+    padding-top: 30px;
+    margin-top: 25px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+.email{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 130px;
+    margin-right: 170px;
+}
+.boxUno, .boxDos, .boxTres, .boxCuatro{
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    height: 200px;
+}
+
+.boxDos{
+    font-size: 23px;
+    padding-top: 30px;
+    color: rgb(183, 186, 195);
+    height: 80px;
+    margin-bottom: 30px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+}
+.boxTres{
+    background-color: rgb(247,248, 252);
+    border-radius: 10px;
+}
+.boxCuatro{
+    height: 100px;
+}
+.update{
+    margin: 20px auto;
+    margin-left: 110px;
+    font-size: 20px;
+    color: rgb(131, 135, 165);
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    width: 180px;
+    height: 35px;
+    
+}
+h1, h2{
+    margin: 10px 20px;
+    text-align: center;
+    color: rgb(96, 104, 124);
+}
+.recupero{
+    color: rgb(96, 104, 124);
+}
+h2{
+    padding-top: 30px;
+}
+.confirm{
+    margin-left: 120px;
+    margin-top: 40px;
+    color: #ffffff;
+    background-color:rgb(36,46,74);
+    width:180px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 15px;
+}
