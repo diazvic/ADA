@@ -7,21 +7,19 @@ body,html {
     background-color:#D3D3D3;
 }
 .contenedor{
-    width: 800px;
+    width: 680px;
     height: 200px;
-    display: flex;
+    display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 .dado{
     display: flex;
-    width: 70px;
-    height: 70px;
+    width: 95px;
+    height: 95px;
     background-color: #ffffff;
     align-items: center;
     justify-content: space-around;
-}
-.dado-uno{
-    
+    border-radius: 10px;
 }
