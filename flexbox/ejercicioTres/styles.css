@@ -1,0 +1,108 @@
+body,html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #6944FF;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+.datos{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.cara{
+    height: 180px;
+}
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    height: 20px;
+}
+.seguidores{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 35px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+i{
+    width: 60px;
+    border-radius: 10px;
+    
+}
+.face{
+    margin-left: 20px;
+    border-radius: 35px;
+    background-color: #0E78D7;
+    border: none;
+}
+.tw{
+    margin-left: 20px;
+    border-radius: 35px;
+    background-color: #1EA1F2;
+    border: none;
+}
+.ig{
+    margin-left: 20px;
+    border-radius: 35px;
+    background-color: #E1306C;
+    border: none;
+}
+.git{
+    margin-left: 20px;
+    border-radius: 35px;
+    background-color: lightgray;
+    border: none;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #6944ff;
+}
+.lugar, .pc { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.numeros{
+    font-size: 27px;
+    color: #324e63;
+}
+.boton{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.follow{
+    font-size: 20px;
+    background-color: #E1306C;
+    color: #ffffff;
+    border: none;
+    border-radius: 45px;
+    width: 200px;
+    height: 60px;
+}
