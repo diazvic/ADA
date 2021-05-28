@@ -7,6 +7,9 @@ html, body{
 header{
     background-color: turquoise;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     width: 100%;
     height: 40px;
 }
@@ -17,21 +20,19 @@ nav{
 }
 a{
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     text-decoration: none;
+    margin: 15px;
 }
-li{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
+i.fas.fa-bars{
+    display: none;
 }
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-    justify-content: left;
+@media screen and (max-width:450px){
+    i.fas.fa-bars{
+        display: flex;
+    }
+    a{
+        display: none;
+    }
 }
