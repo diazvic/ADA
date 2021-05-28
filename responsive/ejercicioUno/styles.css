@@ -1,0 +1,35 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: blueviolet;
+}
+main{
+    height: 100%;
+}
+.divH1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 100%;
+}
+@media (min-width: 600px) and (max-width: 900px){
+    h1{
+        font-size: 32px;
+    }
+    body{
+        background-color: cyan;
+    }
+}
+@media (max-width: 600px){
+    h1{
+        font-size: 24px;
+    }
+    body{
+        background-color: darkgreen;
+    }
+}
