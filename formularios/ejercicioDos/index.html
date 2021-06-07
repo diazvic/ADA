@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio dos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Carga de Productos</h1>
+    <form>
+        <label>
+            Titulo de producto:
+            <input type="text" name="titulo">
+        </label>
+        <label>
+            Marca:
+            <select name="opciones">
+                <option value="klatter">Klatter</option>
+                <option value="top mega">Top Mega</option>
+                <option value="fierce">Fierce</option>
+                <option value="shimano">Shimano</option>
+                <option value="lamborghini">Lamborghini</option>
+                <option value="aurora">Aurora</option>
+                <option value="gt">GT</option>
+            </select>
+        </label>
+        <label>
+            Rodado:
+            <input type="number">
+        </label>
+        <label>
+            Categoría de Producto:
+            <input type="radio" name="bicis" value="mountain bike">Mountain Bike
+            <input type="radio" name="bicis" value="paseo">Paseo
+            <input type="radio" name="bicis" value="plegable">Plegable
+            <input type="radio" name="bicis" value="carrera">Carrera
+        </label>
+        <label>Descripción del producto:
+            <textarea name="bici" cols="25" rows="3" placeholder="descripción"></textarea>
+        </label>
+        <input type="submit" value="Cargar">
+    </form>
+</body>
+</html>
