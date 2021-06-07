@@ -1,0 +1,113 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+header{
+    height: 80px;
+    width: 100%;
+    /* background-color: #f8ede3; */
+}
+
+nav{
+    position: fixed;
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /* margin-left: 450px; */
+    justify-content: space-around;
+    margin-top: 30px; 
+    margin-right: 250px;
+}
+a{  
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #e93b81;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 40px; 
+}
+
+.seccionUno{
+    background-color: #e4efe7;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; 
+
+}
+h3{
+    color: #231e23;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* align-self: flex-start; */
+}
+h1{
+    color: #f5abc9;
+    font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* align-self: flex-start; */
+
+}
+.descripcion{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.info{
+    /* border: 1px solid red;   */
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.botonUno{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 40px;
+    background-color: #39a6a3;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    /* align-self: flex-start; */
+}
+.contacto{
+    padding: 0 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #39a6a3;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-self: flex-start; */
+}
+.imagenDev{
+    /* border: 1px solid yellow; */
+    width: 50%;
+    margin-top: 30px;
+    
+}
+img{
+    width: 600px;
+
+}
