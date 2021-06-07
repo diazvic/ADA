@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio cuatro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <main>
+        <div class="contenedor">
+            <h2>Formulario de registro</h2>
+            <form>
+                <div class="seccion-uno">
+                        <label class="nombre">Nombre
+                        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+                    </label>
+                    
+                        <label class="apellido">Apellido
+                            <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido">
+                        </label>
+                </div>
+                <div class="seccion-dos">
+                    <label class="dni">DNI
+                        <input type="text" class="documento" maxlength="8" name="dni" placeholder="Introduzca su dni">
+                    </label> 
+                    <label class="email">Email
+                        <input type="email" class="mail" placeholder="adalovelace@gmail.com">
+                    </label>
+                </div>
+                <div class="seccion-tres">
+                    <label class="contraseña">Contraseña
+                        <input type="password" minlength="8" maxlength="16">
+                    </label>
+                    <label class="contraseña">Repetir contraseña
+                        <input type="password" minlength="8" maxlength="16">
+                    </label>
+                </div>
+                <div class="seccion-cuatro">
+                    <p>
+                    <small>
+                        * La contraseña debe tener entre 8 y 16 carácteres
+                    </small>
+                    </p>
+                </div>
+                <div class="seccion-cinco">
+                    <input type="checkbox" class="check">
+                    <label class="terminos">
+                        Aceptar términos y condiciones
+                    </label>
+                    <button class="boton">
+                        Registrarse
+                    </button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+</body>
+
+</html>

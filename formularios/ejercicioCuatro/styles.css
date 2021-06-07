@@ -1,0 +1,95 @@
+* { 
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100%;
+    font-family: Arial,sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 550px;
+    height: 500px;
+    margin-top: 40px;
+}
+.contenedor{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 600px;
+    padding: 20px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    color: #5C5C5C;
+    font-size: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.seccion-uno, .seccion-dos, .seccion-tres{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid yellow; */
+    width: 520px;
+    height: 90px;
+    justify-content: space-around;
+
+}
+.seccion-cuatro{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid yellow; */
+    width: 500px;
+    height: 90px;
+}
+.nombre, .apellido, .dni, .email, .contraseña{
+    display: flex;
+    flex-direction: column;
+}
+
+label,p{
+    color: #525252;
+}
+input{ 
+    height: 60px;
+    width: 250px;
+    border: 1px solid #D0D0D0;
+    border-radius: 3px;
+}
+
+.boton{
+    background-color: #22A3D9;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    width: 160px;
+    height: 70px;
+    border-radius: 2px;
+    box-shadow: 8px 8px 10px 0 #D0D0D0;
+}
+.check{
+    width: 10px;
+}
+.mail{
+    width: 350px;
+}
+.documento{
+    width: 150px;
+}
+.seccion-cinco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    justify-content: space-between;
+}
+.terminos{
+    margin-right: 80px;
+}
